@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Battleship">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="9" column-count="11" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="55" width="942" height="398"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="ac447" class="javax.swing.JButton" binding="fireButton4">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="04"/>
+        </properties>
+      </component>
+      <component id="43607" class="javax.swing.JButton" binding="fireButton1">
+        <constraints>
+          <grid row="1" column="9" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <hideActionText value="false"/>
+          <text value="Fire!"/>
+          <toolTipText value="07"/>
+        </properties>
+      </component>
+      <component id="15073" class="javax.swing.JButton" binding="fireButton2">
+        <constraints>
+          <grid row="1" column="7" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="06"/>
+        </properties>
+      </component>
+      <component id="9c39f" class="javax.swing.JButton" binding="fireButton3">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="05"/>
+        </properties>
+      </component>
+      <component id="11f7b" class="javax.swing.JButton" binding="fireButton12">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="14"/>
+        </properties>
+      </component>
+      <component id="ff808" class="javax.swing.JButton" binding="fireButton9">
+        <constraints>
+          <grid row="2" column="9" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="17"/>
+        </properties>
+      </component>
+      <component id="b73bf" class="javax.swing.JButton" binding="fireButton10">
+        <constraints>
+          <grid row="2" column="7" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="16"/>
+        </properties>
+      </component>
+      <component id="3e943" class="javax.swing.JButton" binding="fireButton11">
+        <constraints>
+          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="15"/>
+        </properties>
+      </component>
+      <component id="bbd23" class="javax.swing.JButton" binding="fireButton20">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="24"/>
+        </properties>
+      </component>
+      <component id="bea05" class="javax.swing.JButton" binding="fireButton17">
+        <constraints>
+          <grid row="3" column="9" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="27"/>
+        </properties>
+      </component>
+      <component id="f4e72" class="javax.swing.JButton" binding="fireButton18">
+        <constraints>
+          <grid row="3" column="7" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="26"/>
+        </properties>
+      </component>
+      <component id="85d5c" class="javax.swing.JButton" binding="fireButton19">
+        <constraints>
+          <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="25"/>
+        </properties>
+      </component>
+      <component id="f7b5a" class="javax.swing.JButton" binding="fireButton28">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="34"/>
+        </properties>
+      </component>
+      <component id="b54d7" class="javax.swing.JButton" binding="fireButton25">
+        <constraints>
+          <grid row="4" column="9" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="37"/>
+        </properties>
+      </component>
+      <component id="4cf7" class="javax.swing.JButton" binding="fireButton26">
+        <constraints>
+          <grid row="4" column="7" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="36"/>
+        </properties>
+      </component>
+      <component id="5dcdc" class="javax.swing.JButton" binding="fireButton27">
+        <constraints>
+          <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="35"/>
+        </properties>
+      </component>
+      <component id="2ca95" class="javax.swing.JButton" binding="fireButton36">
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="44"/>
+        </properties>
+      </component>
+      <component id="fbcf7" class="javax.swing.JButton" binding="fireButton33">
+        <constraints>
+          <grid row="5" column="9" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="47"/>
+        </properties>
+      </component>
+      <component id="efa2f" class="javax.swing.JButton" binding="fireButton34">
+        <constraints>
+          <grid row="5" column="7" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="46"/>
+        </properties>
+      </component>
+      <component id="479da" class="javax.swing.JButton" binding="fireButton35">
+        <constraints>
+          <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="45"/>
+        </properties>
+      </component>
+      <component id="5abaf" class="javax.swing.JButton" binding="fireButton44">
+        <constraints>
+          <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="54"/>
+        </properties>
+      </component>
+      <component id="80a39" class="javax.swing.JButton" binding="fireButton41">
+        <constraints>
+          <grid row="6" column="9" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="57"/>
+        </properties>
+      </component>
+      <component id="c9817" class="javax.swing.JButton" binding="fireButton42">
+        <constraints>
+          <grid row="6" column="7" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="56"/>
+        </properties>
+      </component>
+      <component id="18ae" class="javax.swing.JButton" binding="fireButton43">
+        <constraints>
+          <grid row="6" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="55"/>
+        </properties>
+      </component>
+      <component id="7f652" class="javax.swing.JButton" binding="fireButton52">
+        <constraints>
+          <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="64"/>
+        </properties>
+      </component>
+      <component id="4fd22" class="javax.swing.JButton" binding="fireButton49">
+        <constraints>
+          <grid row="7" column="9" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="67"/>
+        </properties>
+      </component>
+      <component id="f8897" class="javax.swing.JButton" binding="fireButton50">
+        <constraints>
+          <grid row="7" column="7" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="66"/>
+        </properties>
+      </component>
+      <component id="e0b08" class="javax.swing.JButton" binding="fireButton51">
+        <constraints>
+          <grid row="7" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="65"/>
+        </properties>
+      </component>
+      <component id="6926c" class="javax.swing.JButton" binding="fireButton60">
+        <constraints>
+          <grid row="8" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="74"/>
+        </properties>
+      </component>
+      <component id="f4a68" class="javax.swing.JButton" binding="fireButton57">
+        <constraints>
+          <grid row="8" column="9" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="77"/>
+        </properties>
+      </component>
+      <component id="aa4f5" class="javax.swing.JButton" binding="fireButton58">
+        <constraints>
+          <grid row="8" column="7" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="76"/>
+        </properties>
+      </component>
+      <component id="55500" class="javax.swing.JButton" binding="fireButton59">
+        <constraints>
+          <grid row="8" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="75"/>
+        </properties>
+      </component>
+      <component id="5b194" class="javax.swing.JButton" binding="fireButton5">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="03"/>
+        </properties>
+      </component>
+      <component id="fb95" class="javax.swing.JButton" binding="fireButton13">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="13"/>
+        </properties>
+      </component>
+      <component id="a369e" class="javax.swing.JButton" binding="fireButton21">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="23"/>
+        </properties>
+      </component>
+      <component id="84f5e" class="javax.swing.JButton" binding="fireButton29">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="33"/>
+        </properties>
+      </component>
+      <component id="280e5" class="javax.swing.JButton" binding="fireButton37">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="43"/>
+        </properties>
+      </component>
+      <component id="2988b" class="javax.swing.JButton" binding="fireButton45">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="53"/>
+        </properties>
+      </component>
+      <component id="7a825" class="javax.swing.JButton" binding="fireButton53">
+        <constraints>
+          <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="63"/>
+        </properties>
+      </component>
+      <component id="11253" class="javax.swing.JButton" binding="fireButton61">
+        <constraints>
+          <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="73"/>
+        </properties>
+      </component>
+      <component id="4a310" class="javax.swing.JButton" binding="fireButton6">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="02"/>
+        </properties>
+      </component>
+      <component id="8f04c" class="javax.swing.JButton" binding="fireButton14">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="12"/>
+        </properties>
+      </component>
+      <component id="f47f4" class="javax.swing.JButton" binding="fireButton22">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="22"/>
+        </properties>
+      </component>
+      <component id="16b88" class="javax.swing.JButton" binding="fireButton30">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="32"/>
+        </properties>
+      </component>
+      <component id="ec120" class="javax.swing.JButton" binding="fireButton38">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="42"/>
+        </properties>
+      </component>
+      <component id="4b015" class="javax.swing.JButton" binding="fireButton46">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="52"/>
+        </properties>
+      </component>
+      <component id="92839" class="javax.swing.JButton" binding="fireButton54">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <text value="Fire!"/>
+          <toolTipText value="62"/>
+        </properties>
+      </component>
+      <component id="7593b" class="javax.swing.JButton" binding="fireButton62">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="72"/>
+        </properties>
+      </component>
+      <component id="2f8b4" class="javax.swing.JButton" binding="fireButton7">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="01"/>
+        </properties>
+      </component>
+      <component id="17f5b" class="javax.swing.JButton" binding="fireButton15">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="11"/>
+        </properties>
+      </component>
+      <component id="88e72" class="javax.swing.JButton" binding="fireButton23">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="21"/>
+        </properties>
+      </component>
+      <component id="210ca" class="javax.swing.JButton" binding="fireButton31">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="31"/>
+        </properties>
+      </component>
+      <component id="c36f2" class="javax.swing.JButton" binding="fireButton39">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="41"/>
+        </properties>
+      </component>
+      <component id="52c16" class="javax.swing.JButton" binding="fireButton47">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="51"/>
+        </properties>
+      </component>
+      <component id="2fce3" class="javax.swing.JButton" binding="fireButton55">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="61"/>
+        </properties>
+      </component>
+      <component id="e9913" class="javax.swing.JButton" binding="fireButton63">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="71"/>
+        </properties>
+      </component>
+      <component id="40bcb" class="javax.swing.JButton" binding="fireButton8">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="00"/>
+        </properties>
+      </component>
+      <component id="eb3b2" class="javax.swing.JButton" binding="fireButton16">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="10"/>
+        </properties>
+      </component>
+      <component id="75763" class="javax.swing.JButton" binding="fireButton24">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="20"/>
+        </properties>
+      </component>
+      <component id="c301" class="javax.swing.JButton" binding="fireButton32">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="30"/>
+        </properties>
+      </component>
+      <component id="95c96" class="javax.swing.JButton" binding="fireButton40">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="40"/>
+        </properties>
+      </component>
+      <component id="ab4cf" class="javax.swing.JButton" binding="fireButton48">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="50"/>
+        </properties>
+      </component>
+      <component id="4dc95" class="javax.swing.JButton" binding="fireButton56">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="60"/>
+        </properties>
+      </component>
+      <component id="6ae7c" class="javax.swing.JButton" binding="fireButton64">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Fire!"/>
+          <toolTipText value="70"/>
+        </properties>
+      </component>
+      <grid id="328" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="b63b5" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Battleship"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="10120" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Turns:     "/>
+        </properties>
+      </component>
+      <component id="29836" class="javax.swing.JLabel" binding="turnsLabel">
+        <constraints>
+          <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="4a23" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Ships:     "/>
+        </properties>
+      </component>
+      <component id="12f" class="javax.swing.JLabel" binding="shipsLeftLabel">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="5"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
