@@ -1,3 +1,6 @@
+// The Ship object has fields such as size, type, and orientation. The ships are laid with
+// the layShip() method in Board.
+
 public class Ship {
 
     final private int size;

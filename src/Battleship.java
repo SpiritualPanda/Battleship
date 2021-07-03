@@ -223,7 +223,7 @@ public class Battleship extends JFrame {
 
         for (JButton[] arr : buttons) {
             for (JButton b : arr ) {
-                b.addActionListener(e -> {
+                b.addActionListener(e -> { // One of the buttons was clicked
                     if (defaultButtonColor == null) {
                         AbstractButton butt = (AbstractButton) e.getSource();
                         defaultButtonColor = butt.getBackground();
@@ -236,21 +236,21 @@ public class Battleship extends JFrame {
 
                     board.getBoard()[row][col].guess();
 
-                    if (board.isHit(row, col)) {
+                    if (board.isHit(row, col)) { // If there was a ship on the space clicked
                         b.setText("Hit!");
                         playSound("/resources/hit.wav", 20, 0);
 
                         b.setBackground(new Color(255, 50, 50));
 
                         shipAt(row, col).gotHit();
-                        if (shipAt(row, col).isSunk()) {
+                        if (shipAt(row, col).isSunk()) { // If a given ship was sunk
                             board.decrementShips();
                             shipsLeftLabel.setText(String.valueOf(board.getShipsRemaining()));
                             playSound("/resources/Bubblessfx.wav", 100, 500);
                             int shipSize = shipAt(row, col).getSize();
                             switch (shipAt(row, col).getOrientation()) {
                                 case "down":
-                                    for (int i = shipAt(row, col).getStartRow(); i < shipAt(row, col).getStartRow() + shipSize; i++)
+                                    for (int i = shipAt(row, col).getStartRow(); i < shipAt(row, col).getStartRow() + shipSize; i++) // Display ship name
                                         buttons[i][col].setText(board.getBoard()[row][col].getShipType());
 
                                     break;
@@ -272,17 +272,17 @@ public class Battleship extends JFrame {
                                     break;
                             }
                         }
-                        if (board.getShipsRemaining() == 0) {
+                        if (board.getShipsRemaining() == 0) { // Win condition
                             displayWin();
                             newGame();
                         }
                     }
-                    else {
+                    else { // If there was no ship on the space clicked
                         b.setText("Miss!");
                         playSound("/resources/miss.wav", 30, 0);
                         turnsLeft--;
                         turnsLabel.setText(String.valueOf(turnsLeft));
-                        if (turnsLeft == 0) {
+                        if (turnsLeft == 0) { // If out of turns, Game Over screen and new game
                             displayGameOver();
                             newGame();
                         }

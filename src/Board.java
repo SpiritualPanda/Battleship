@@ -1,3 +1,5 @@
+// The "Board" is a 8x8 2D Array of Spaces, which simulates a standard Battleship board.
+
 public class Board {
 
     private final Space[][] board = new Space[8][8];
@@ -29,7 +31,7 @@ public class Board {
         return (int) (Math.random() * 4);
     }
 
-    public void layShip(Ship s)  {
+    public void layShip(Ship s)  { // Lay down a ship with random pos and orientation on the Board
         int rand = newRandInt();
         boolean found = false;
 
@@ -131,10 +133,10 @@ public class Board {
                     rand = newRandInt();
                 }
             }
-        } while (!found);
+        } while (!found); // The loop continues until the ship is successfully laid down.
     }
 
-    public String toString() {
+    public String toString() { // Prints out the board (X's are ships, O's are empty)
         StringBuilder result = new StringBuilder();
         for (Space[] out : board) {
             for (Space has : out) {

@@ -1,3 +1,6 @@
+// Spaces are the objects that populate the Board object. They can either have ships on them or not,
+// and the ships can be accessed with the getShip() method.
+
 public class Space {
 
     private int col;
